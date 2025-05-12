@@ -1,0 +1,1 @@
+Pasta dedicada para armazenamento de imagens.
