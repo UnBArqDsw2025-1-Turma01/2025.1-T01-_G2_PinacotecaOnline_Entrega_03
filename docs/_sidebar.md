@@ -11,4 +11,4 @@
     - [3.4. Participações - Padrões de Projeto](/PadroesDeProjeto/3.4.ParticipacoesPadroes.md)
     - [3.5. Iniciativas Extras - Padrões de Projeto](/PadroesDeProjeto/3.5.IniciativasExtras.md)
     - [3.6. Reuniões - Atas](/PadroesDeProjeto/Atas/ReunioesEAtas.md)
-      <!-- - [Ata - Dia 9 - Título da reunião](#)   -->
+      - [Ata - Dia 9 - Planejamento Entrega 3](/PadroesDeProjeto/Atas/Ata20052025.md)  
