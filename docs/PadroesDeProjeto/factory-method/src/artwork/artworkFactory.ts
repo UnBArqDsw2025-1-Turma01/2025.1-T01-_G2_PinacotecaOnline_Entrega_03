@@ -1,10 +1,8 @@
-// Interface do Produto (Obra de Arte)
 interface Artwork {
     publish(): void;
     getType(): string;
   }
   
-  // Produtos Concretos (Obras de Arte)
   class Painting implements Artwork {
     constructor(
       private title: string,
@@ -39,7 +37,6 @@ interface Artwork {
     }
   }
   
-  // Interface Creator (Obra de Arte)
   export abstract class ArtworkFactory {
     abstract createArtwork(
       title: string,
@@ -55,7 +52,6 @@ interface Artwork {
       image: string
     ): void {
       const artwork = this.createArtwork(title, techniqueOrMaterial, description, image);
-      // Validação comum
       if (this.isValidImage(image) && this.isValidTitle(title)) {
         artwork.publish();
       } else {
@@ -64,17 +60,14 @@ interface Artwork {
     }
   
     private isValidImage(image: string): boolean {
-      // Simulação de validação de imagem
       return image.endsWith(".jpg") || image.endsWith(".png");
     }
   
     private isValidTitle(title: string): boolean {
-      // Título deve ter pelo menos 3 caracteres
       return title.length >= 3;
     }
   }
   
-  // Concrete Creators (Obra de Arte)
   export class PaintingFactory extends ArtworkFactory {
     createArtwork(
       title: string,

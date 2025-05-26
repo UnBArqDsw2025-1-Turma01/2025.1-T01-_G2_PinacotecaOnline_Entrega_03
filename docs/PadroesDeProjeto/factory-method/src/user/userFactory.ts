@@ -1,10 +1,8 @@
-// Interface do Produto (Usuário)
 interface User {
     register(): void;
     getRole(): string;
   }
   
-  // Produtos Concretos (Usuários)
   class CommonUser implements User {
     constructor(
       private name: string,
@@ -56,7 +54,6 @@ interface User {
     }
   }
   
-  // Interface Creator (Usuário)
   export abstract class UserFactory {
     abstract createUser(
       name: string,
@@ -67,7 +64,6 @@ interface User {
   
     registerUser(name: string, email: string, password: string, extraInfo?: string): void {
       const user = this.createUser(name, email, password, extraInfo);
-      // Validação comum (ex.: verificar se o e-mail é válido)
       if (this.isValidEmail(email) && this.isValidPassword(password)) {
         user.register();
       } else {
@@ -76,18 +72,15 @@ interface User {
     }
   
     private isValidEmail(email: string): boolean {
-      // Simulação de validação de e-mail
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       return emailRegex.test(email);
     }
   
     private isValidPassword(password: string): boolean {
-      // Exemplo: senha deve ter pelo menos 6 caracteres
       return password.length >= 6;
     }
   }
   
-  // Concrete Creators (Usuário)
   export class CommonUserFactory extends UserFactory {
     createUser(name: string, email: string, password: string): User {
       return new CommonUser(name, email, password);
