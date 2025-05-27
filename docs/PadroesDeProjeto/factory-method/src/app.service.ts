@@ -25,12 +25,7 @@ export class AppService {
 
   async runOperations(): Promise<void> {
     try {
-      // 1. Usuário comum (não publica obra)
-      this.executeOperation(() => {
-        this.userService.registerCommonUser('João', 'joao@example.com', '123456');
-      }, '----------------------');
-
-      // 2. Artista Maria publica uma pintura
+      // 1. Artista Maria publica uma pintura
       this.executeOperation(() => {
         this.userService.registerArtist('Maria', 'maria@example.com', '123456', 'Descrição de Maria');
         this.artworkService.publishPainting(
@@ -41,13 +36,13 @@ export class AppService {
         );
       }, '-----------------------------');
 
-      // 3. Administrador e erro de e-mail inválido
+      // 2. Administrador
       this.executeOperation(() => {
         this.userService.registerAdmin('Admin', 'admin@example.com', 'admin123');
-        this.userService.registerCommonUser('Teste', 'email_invalido', '123456');
+        this.userService.registerAdmin('Teste', 'email_invalido', '123456');
       }, '-----------------------------');
 
-      // 4. Artista João publica uma escultura
+      // 3. Artista João publica uma escultura
       this.executeOperation(() => {
         this.userService.registerArtist('João', 'joao2@example.com', '123456', 'Descrição de João');
         this.artworkService.publishSculpture(
