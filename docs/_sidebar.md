@@ -18,3 +18,4 @@
     - [3.6. Reuniões - Atas](/PadroesDeProjeto/Atas/ReunioesEAtas.md)
       - [Ata - Dia 9 - Planejamento Entrega 3](/PadroesDeProjeto/Atas/Ata20052025.md)
       - [Ata - Dia 10 - Comunicados e Acompanhamento da Produção dos Artefatos](/PadroesDeProjeto/Atas/Ata27052025.md)
+      - [Ata - Dia 11 - Ponto de controle](/PadroesDeProjeto/Atas/Ata31052025.md)
