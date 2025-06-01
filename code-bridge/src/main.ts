@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { UserService, User } from './user.service';
-import { ArtService, Art } from './art.service';
+import { ArtService } from './art.service';
 
 async function bootstrap() {
   const app = await NestFactory.createApplicationContext(AppModule);
@@ -17,11 +17,11 @@ async function bootstrap() {
     role: 'artist',
   };
   if (userService.registerUser(maria)) {
-    artService.publishArt(
+    artService.publishPainting(
       {
         title: 'Noite Estrelada',
+        description: 'Uma pintura icônica de Van Gogh',
         technique: 'Óleo sobre tela',
-        type: 'Pintura',
       },
       maria,
     );
@@ -53,11 +53,11 @@ async function bootstrap() {
     role: 'artist',
   };
   if (userService.registerUser(joao)) {
-    artService.publishArt(
+    artService.publishSculpture(
       {
         title: 'O Pensador',
-        technique: 'Bronze',
-        type: 'Escultura',
+        description: 'Uma escultura clássica de Rodin',
+        material: 'Bronze',
       },
       joao,
     );

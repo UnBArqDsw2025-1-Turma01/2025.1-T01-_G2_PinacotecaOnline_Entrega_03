@@ -1,12 +1,12 @@
 import { Module } from '@nestjs/common';
-import { ArtService, LocalArtStorage } from './art.service';
+import { ArtService, PNGImageMedia } from './art.service';
 
 @Module({
   providers: [
     ArtService,
     {
-      provide: 'ArtStorageImplementor',
-      useClass: LocalArtStorage,
+      provide: 'ArtMedia',
+      useClass: PNGImageMedia, // Aqui pode ser modificado para JPGImageMedia
     },
   ],
   exports: [ArtService],
