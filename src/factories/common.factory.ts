@@ -3,7 +3,6 @@ import { Injectable } from '@nestjs/common';
 import { ReportStatus } from 'src/shared/enums/report-status.enum';
 import { ReportType } from 'src/shared/enums/report-type.enum';
 import { CommonUser } from 'src/shared/models/common';
-import { Art } from '../shared/models/Art';
 import { Report } from '../shared/models/report';
 import { UserFactory } from './user.factory.interface';
 
@@ -19,11 +18,6 @@ export class CommonUserFactory implements UserFactory {
       {}, // endereço fictício
       new Date(),
     );
-  }
-
-  createArt(): Art {
-    console.log('usuário não é permitido criar artes');
-    return null;
   }
 
   createReport(): Report {

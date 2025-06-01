@@ -15,7 +15,8 @@ export class TestService implements OnModuleInit {
   testFactory(factoryName: string, factory: any) {
     console.log(`\n=== Testando ${factoryName} ===`);
     const user = factory.createUser();
-    const art = factory.createArt();
+    const art =
+      factoryName !== 'CommonUserFactory' ? factory.createArt() : null; // Some factories may not implement createArt
     const report = factory.createReport();
 
     console.log('User:', user);
