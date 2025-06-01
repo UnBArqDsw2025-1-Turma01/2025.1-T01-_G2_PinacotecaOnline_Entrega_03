@@ -13,6 +13,7 @@
     - [3.3. Padrões de Projeto GoFs Comportamentais](/PadroesDeProjeto/3.3.GoFsComportamentais.md)
       - [3.3.1. Command](/PadroesDeProjeto/3.3.1.GoFsComportamentais-Command)
       - [3.3.4. State](/PadroesDeProjeto/3.3.4GoFsComportamentais-State.md)
+      - [3.3.5. Strategy](/PadroesDeProjeto/3.3.5.Strategy.md)
     - [3.4. Participações - Padrões de Projeto](/PadroesDeProjeto/3.4.ParticipacoesPadroes.md)
     - [3.5. Iniciativas Extras - Padrões de Projeto](/PadroesDeProjeto/3.5.IniciativasExtras.md)
     - [3.6. Reuniões - Atas](/PadroesDeProjeto/Atas/ReunioesEAtas.md)
