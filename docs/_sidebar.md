@@ -8,6 +8,7 @@
       - [3.1.2. Factory Method](/PadroesDeProjeto/3.1.2.FactoryMethod.md)
       - [3.1.3 Abstract Factory](/PadroesDeProjeto/3.1.3.Abstract-factory.md)
     - [3.2. Padrões de Projeto GoFs Estruturais](/PadroesDeProjeto/3.2.GoFsEstruturais.md)
+      - [3.2.1. Adapter](/PadroesDeProjeto/3.2.1.GoFsEstruturais-Adapter.md)
       - [3.2.3 Composite](/PadroesDeProjeto/3.2.3.Composite.md)
     - [3.3. Padrões de Projeto GoFs Comportamentais](/PadroesDeProjeto/3.3.GoFsComportamentais.md)
       - [3.3.1. Command](/PadroesDeProjeto/3.3.1.GoFsComportamentais-Command)
