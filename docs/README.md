@@ -25,19 +25,29 @@ Pinacoteca Online é um projeto em constante evolução, desenvolvido no context
 
 ## Screenshots da Terceira Entrega
 
-Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
+<div style="text-align: center;"> <b>Figura 1:</b> Artefato 1 - GoF Proxy</div>
+<div style="text-align: center;"> 
+
+![artefato1](PadroesDeProjeto/assets/images/proxy.jpg)
+
+</div>
+
+<div style="text-align: center;"> <b>Figura 2:</b> Artefato 2 - GoF Singleton</div>
+<div style="text-align: center;"> 
+
+![artefato2](PadroesDeProjeto/assets/images/singleton_diag.png)
+
+</div>
 
 ## Há algo a ser executado?
 
 ( ) SIM
 
-( ) NÃO
+(X) NÃO
 
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
+<!-- ## Informações Complementares
 
-## Informações Complementares
-
-Quaisquer outras informações adicionais podem ser descritas nessa seção.
+Quaisquer outras informações adicionais podem ser descritas nessa seção. -->
 
 ## Histórico de Versões
 
