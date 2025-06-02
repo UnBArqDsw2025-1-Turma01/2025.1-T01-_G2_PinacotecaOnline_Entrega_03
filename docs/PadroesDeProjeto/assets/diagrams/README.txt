@@ -1,1 +1,0 @@
-Pasta dedicada para armazenamento de arquivos .drawio
