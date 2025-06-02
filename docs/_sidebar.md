@@ -4,10 +4,13 @@
 - **Padrões de Projeto**
   - [3. Desenho de Software (Padrões de Projeto)](/PadroesDeProjeto/3.PadroesDeProjeto.md)
     - [3.1. Padrões de Projeto GoFs Criacionais](/PadroesDeProjeto/3.1.GoFsCriacionais.md)
+    - 
       - [3.1.1. Singleton](/PadroesDeProjeto/3.1.1GoFsCriacionais-Singleton.md)
       - [3.1.2. Factory Method](/PadroesDeProjeto/3.1.2.FactoryMethod.md)
       - [3.1.3. Abstract Factory](/PadroesDeProjeto/3.1.3.Abstract-factory.md)
+      - [3.1.4. Builder](/PadroesDeProjeto/3.1.4.Builder.md)
       - [3.1.5. Prototype](/PadroesDeProjeto/3.1.5.Prototype.md)
+
     - [3.2. Padrões de Projeto GoFs Estruturais](/PadroesDeProjeto/3.2.GoFsEstruturais.md)
       - [3.2.1. Adapter](/PadroesDeProjeto/3.2.1.GoFsEstruturais-Adapter.md)
       - [3.2.2. Bridge](/PadroesDeProjeto/3.2.2.Bridge.md)
